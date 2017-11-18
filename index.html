@@ -1,22 +1,8 @@
 <!doctype html>
 
-<!--
-
-
-
-ion-social-twitter
-ion-social-facebook
-ion-social-googleplus
-ion-social-github
-ion-social-pinterest
-ion-social-instagram
-ion-social-reddit
-
--->
-
 <head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
@@ -44,7 +30,74 @@ ion-social-reddit
     
     </header>
     
-    <section 
+    <section class="section-about">
+        <div class="row">
+            <div class="col span-2-of-3 about-me">
+                <h2>About Me</h2>
+                <img src="assets/images/about.png">
+                <p class="par-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p class="par-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="col span-1-of-3 connect">
+                <h3>Connect With Me</h3>
+                <ul>
+                    <li><a href="#" class="connect-icons"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#" class="connect-icons"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#" class="connect-icons"><i class="ion-social-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-contact">
+        <div class="row">
+            <div class="col span-2-of-3 d-contact-form">
+                <h2>Contact</h2>
+                <form method="post" action="#" class="f-contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Message">Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="Message" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+             <div class="col span-1-of-3 connect">
+                <h3>Connect With Me</h3>
+                <ul>
+                    <li><a href="#" class="connect-icons"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#" class="connect-icons"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#" class="connect-icons"><i class="ion-social-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="row">
+            <p>&copy;Copyright 2017 Nick Garza</p>
+        </div>
+    
+    </footer>
 
 
 
