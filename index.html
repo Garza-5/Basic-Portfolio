@@ -18,7 +18,8 @@
     <header>
     
         <div class="row">
-            <img src="assets/images/logo.png">
+            <!--<img src="assets/images/logo.png" class="logo">-->
+            <h1>Nick Garza</h1>
             <nav class="main-nav">
                 <ul>
                     <li><a href="#">About</a></li>
@@ -35,8 +36,12 @@
             <div class="col span-2-of-3 about-me">
                 <h2>About Me</h2>
                 <img src="assets/images/about.png">
-                <p class="par-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p class="par-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p class="par-1">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+
+                <p class="par-2">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
             <div class="col span-1-of-3 connect">
                 <h3>Connect With Me</h3>
@@ -51,44 +56,34 @@
     
     <section class="section-contact">
         <div class="row">
-            <div class="col span-2-of-3 d-contact-form">
-                <h2>Contact</h2>
-                <form method="post" action="#" class="f-contact-form">
+            <form method="post" action="#" class="f-contact-form">
+                <div class="col span-2-of-3 d-contact-form">
+                    <h2>Contact</h2>
                     <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="name">Name</label>
+                        <h3>Name</h3>
+                        <input type="text" name="name" id="name" placeholder="John Smith" required>
                         </div>
-                        <div class="col span-2-of-3">
-                            <input type="text" name="name" id="name" placeholder="Your Name" required>
-                        </div>
+                    <div class="row">
+                        <h3>Email</h3>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
                     </div>
                     <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input type="email" name="email" id="email" placeholder="Your Email" required>
-                        </div>
+                        <h3>Message</h3>
+                        <textarea name="message" placeholder="Your Messaage"></textarea>
                     </div>
+                </div>
+            </form>
+        
+                <div class="col span-1-of-3 connect">
                     <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="Message">Message</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <textarea name="Message" placeholder="Your Message"></textarea>
-                        </div>
+                        <h3>Connect With Me</h3>
+                            <ul>
+                                <li><a href="#" class="connect-icons"><i class="ion-social-twitter"></i></a></li>
+                                <li><a href="#" class="connect-icons"><i class="ion-social-facebook"></i></a></li>
+                                <li><a href="#" class="connect-icons"><i class="ion-social-github"></i></a></li>
+                            </ul>
                     </div>
-                    
-                </form>
-            </div>
-             <div class="col span-1-of-3 connect">
-                <h3>Connect With Me</h3>
-                <ul>
-                    <li><a href="#" class="connect-icons"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="#" class="connect-icons"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="#" class="connect-icons"><i class="ion-social-github"></i></a></li>
-                </ul>
-            </div>
+                </div>
         </div>
     </section>
     
