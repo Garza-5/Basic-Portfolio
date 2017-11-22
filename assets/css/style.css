@@ -98,7 +98,7 @@ p {
 }
 
 .par-2 {
-    
+    margin-top: 20px;
 }
 
 
@@ -159,18 +159,32 @@ header:after {
 /* --------------------------------------- */
 
 .section-about {
-    margin-left: 16px;
+    margin: -30px 15%;
+    background-color: #c4c4c4;
+    margin-left: 0 auto;
 }
+
+.section-about .row {
+}
+.about-me {
+    background-color: #fff;
+}
+
 
 .about-me img {
     float: left;
-    margin-right: 20px;
+    margin: 20px;
     display: inline;
     width: 40%;
 }
 
 .about-me p {
     font-size: 80%;
+    width: 90%;
+}
+
+.connect {
+    background-color: #fff;
 }
 
 
